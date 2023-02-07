@@ -16,7 +16,7 @@ function createBoard(size){
 
     let numDivs = size * size;
 
-    for(let i = 0; i < 100; i++) {
+    for(let i = 0; i < numDivs; i++) {
         let div = document.createElement("div");
         board.insertAdjacentElement("beforeend", div);
         div.addEventListener("mouseover", function(){
